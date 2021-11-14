@@ -17,9 +17,9 @@ const stats = [
 
 function Banner() {
   return (
-    <div className="flex  justify-between mt-20">
+    <div className="flex  justify-between mt-10 lg:mt-20">
       <div>
-        <div className="text-8xl pb-4 capitalize">
+        <div className="text-6xl lg:text-8xl pb-4 capitalize">
           Collect RetroArt <br></br>digital artwork
         </div>
         <div className="text-lg pb-4">
@@ -38,9 +38,8 @@ function Banner() {
           ))}
         </div>
       </div>
-      <div className="max-w-xs">
+      <div className="hidden md:inline-block max-w-xs">
         <Image
-          className="pb-0"
           src="https://via.placeholder.com/500"
           width={400}
           height={250}

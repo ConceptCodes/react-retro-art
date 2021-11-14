@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen py-2 px-10">
+    <div className="flex flex-col min-h-screen py-2 md:px-10">
       <Head>
         <title>Retro Art</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,9 +17,9 @@ export default function Home() {
         <Banner />
         <div className="flex justify-between pt-40 mb-5">
           <div className="text-2xl capitalize">latest artwork</div>
-          <div className="uppercase text-xl">view all</div>
+          <div className="hidden md:inline-block uppercase text-xl">view all</div>
         </div>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {[...Array(8)].map((x, index) => (
             <Image
               key={index}
