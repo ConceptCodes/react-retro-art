@@ -1,0 +1,18 @@
+{
+    "CONTRACT_ADDRESS": "<CONTRACT_ADDRESS>",
+    "SCAN_LINK": "https://polygonscan.com/token/<CONTRACT_ADDRESS>",
+    "NETWORK": {
+      "NAME": "Polygon",
+      "SYMBOL": "Matic",
+      "ID": 137
+    },
+    "NFT_NAME": "<NFT_NAME>",
+    "SYMBOL": "<NFT_SYMBOL>",
+    "MAX_SUPPLY": 1000,
+    "WEI_COST": 75000000000000000,
+    "DISPLAY_COST": 0.075,
+    "GAS_LIMIT": 285000,
+    "MARKETPLACE": "Opeansea",
+    "MARKETPLACE_LINK": "https://opensea.io/collection/<COLLECTION_NAME>",
+    "SHOW_BACKGROUND": true
+  }
